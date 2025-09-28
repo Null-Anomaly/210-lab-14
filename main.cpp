@@ -8,6 +8,7 @@ using namespace std;
 //The class for Color including Getters and setters for each rgb.
 class Color
 {
+    //Public Getters, Setters, and print
     public:
     int getRed() {return red;}
     int getBlue() {return blue;}
@@ -23,6 +24,7 @@ class Color
         cout << " \n";
     }
 
+    //Private values of red, blue, and green
     private:
     int green;
     int red;
@@ -39,26 +41,32 @@ int main()
     Color four;
     Color five;
 
+    //Object one
     one.setBlue(10);
     one.setGreen(29);
     one.setRed(199);
 
+    //object two
     two.setBlue(200);
     two.setGreen(119);
     two.setRed(24);
 
+    //object three
     three.setBlue(43);
     three.setGreen(189);
     three.setRed(203);
 
+    //object four
     four.setBlue(255);
     four.setGreen(249);
     four.setRed(255);
 
+    //object five
     five.setBlue(245);
     five.setGreen(198);
     five.setRed(74);
 
+    //print statements
     one.print();
     two.print();
     three.print();
