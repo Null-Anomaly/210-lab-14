@@ -5,6 +5,7 @@ IDE used: Visual Studio Code*/
 #include <iomanip>
 using namespace std;
 
+//The class for Color including Getters and setters for each rgb.
 class Color
 {
     public:
@@ -16,7 +17,10 @@ class Color
     int setGreen(int g) {green = g;}
     void print()
     {
-        cout << "";
+        cout << "Green: " << green;
+        cout << "Blue: " << blue;
+        cout << "Red: " << red;
+        cout << "\n";
     }
 
     private:
@@ -26,8 +30,11 @@ class Color
 
 };
 
+//Program main
 int main()
 {
+    Color one;
+    Color two;
 
     return 0;
 }
